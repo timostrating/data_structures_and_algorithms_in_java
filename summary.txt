@@ -1,0 +1,60 @@
+data_structures_and_algorithms_in_java
+
+
+
+
+1: OVERVIEW
+
+Data structures organize / optimize data in memory or on disk
+Algorithms:  insert / search / delete	
+Constructor: special methode that is called automaticly
+Inherintance: 
+	Base class		extended / derived class
+	employee.java		secretary.java
+Polymorphism: 
+	display(); in baseclass derived class can deside what to do
+
+int intVar;          // an int variable called intVar       creates space for a int
+BankAccount bc1;     // reference to a BankAccount object   creates space for a address
+
+bc2 = bc1            // this will copie 1 into 2    SETS ADDRESS 2 = ADDRESS 1
+                     // 2 adresses that point to the same object in memory 
+bc1 == bc2	         // ADDRESS 1 == ADDRESS 2
+bc1.equals(bc2)      // object 1 == object 2
+
++, *, =    	         // There are no Overloaded Operators in java
+.                    // dot is a operator
+
+NAME	   suffix	 BITS	  VALUES
+boolean 	       1  	  true  OR false
+byte 			       8  	  –128 / +127
+char 	    ('')	 16  	  ‘\u0000’ / ‘\uFFFF’
+short 		       16  	  –32,768  / +32,767
+int 			       32  	  –2,147,483,648  / +2,147,483,647
+long 	    L    	 64  	  –9,223,372,036,854,775,808   / +9,223,372,036,854,775,807
+float 	  F		   32 	  Approximately 10 –38 to 10 +38 ; 7 significant digits
+double 	    	   64 	  Approximately 10 –308 to 10 +308 ; 15 significant digits
+
+All other types are classes, like string
+
+String s = "hallo";
+s.charAt(0);                       // 'h' String is een class dus gebruiken we een functie
+Integer.parseInt(s)		             // De Integer CLASS helps to get a int TYPE
+Double aDub = Double.valueOf(s);	 
+aDub.doubleValue();		             // DE Double CLASS helps to build a double TYPE
+
+
+
+1: Questions
+
+	1: insert, delete, search
+	2: sorting
+	3: C - part of a record
+	4: search key
+	5: A - is a class				                           B ???
+	6: A - is a blueprint for many objects
+	7: B - requieres the keyword new		               D  --> Class specification 
+	8: ----						                                 Method
+	9: ---- 					                                 DOT
+	10: Data Types
+
