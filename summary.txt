@@ -58,3 +58,67 @@ aDub.doubleValue();                    // DE Double CLASS helps to build a doubl
 	9: ----                                                    DOT
 	10: Data Types
 
+
+
+
+
+2: ARRAYS
+
+null is a object
+
+int[] intArray;              // defines a reference to an array OBJECT
+intArray = new int[100];     // creates the array, and sets intArray to refer to it
+
+container class, is a class that is wraped around data.
+
+class methodes = class interface
+
+abstraction is splitting classes in HOW and WHAT
+
+Binary Search, for a orderd list
+0                    1–100
+1    50   Too high   1–49
+2    25   Too low    26–49
+3    37   Too high   26–36
+4    31   Too low    32–36
+5    34   Too high   32–33
+6    32   Too low    33–33
+7    33   Correct
+
+Big O notation,  the algorith's speed related to the number of items
+
+N items
+T time
+K constant
+
+_FORMULA
+ insert array[lasindex]:    T = K
+ linear search:             T = K * N / 2       T = k * N
+ Binary search:             T = K * log2( N )   T = K * log( N )
+
+_Big O		o = "order of"
+ insert array[lasindex]:    O( 1 )
+ linear search:             O( N )
+ Binary search:             O( log( N ) )
+
+
+
+
+2: Questions
+
+	1: D 
+	2: True
+	3: B
+	4: False
+	5: new
+	6: D
+	7: interface
+	8: D
+	9: to the power
+	10: 3
+	11: B
+	12: 6
+	13: False
+	14: A
+	15: -----                       constant
+	16: objects
